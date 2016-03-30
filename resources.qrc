@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/appInfo">
+        <file>AUTHORS.txt</file>
+    </qresource>
+    <qresource prefix="/data">
+        <file>data/consume.xml</file>
+        <file>data/equipment.xml</file>
+        <file>data/important.xml</file>
+        <file>data/youkai.xml</file>
+        <file>data/creature.xml</file>
+    </qresource>
+</RCC>
