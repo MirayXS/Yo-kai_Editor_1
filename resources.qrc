@@ -13,6 +13,16 @@
         <file>data/important_ja_JP.xml</file>
         <file>data/youkai_ja_JP.xml</file>
         <file>data/creature_ja_JP.xml</file>
+        <file>data/consume_fr_FR.xml</file>
+        <file>data/equipment_fr_FR.xml</file>
+        <file>data/important_fr_FR.xml</file>
+        <file>data/youkai_fr_FR.xml</file>
+        <file>data/creature_fr_FR.xml</file>
+        <file>data/consume_es_ES.xml</file>
+        <file>data/equipment_es_ES.xml</file>
+        <file>data/important_es_ES.xml</file>
+        <file>data/youkai_es_ES.xml</file>
+        <file>data/creature_es_ES.xml</file>
     </qresource>
     <qresource prefix="/translations">
         <file>translations/qt_ja_JP.qm</file>
