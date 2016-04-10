@@ -78,7 +78,14 @@ FORMS    += mainwindow.ui \
     importanttab.ui \
     section9tab.ui
 
-TRANSLATIONS = $$PWD/translations/qt_ja_JP.ts $$PWD/translations/qt_fr_FR.ts
+TRANSLATIONS = $$PWD/translations/qt_ja_JP.ts \
+$$PWD/translations/qt_fr_FR.ts \
+$$PWD/translations/qt_es_ES.ts \
+$$PWD/translations/qt_it_IT.ts \
+$$PWD/translations/qt_de_DE.ts \
+$$PWD/translations/qt_zh_CN.ts \
+$$PWD/translations/qt_zh_TW.ts \
+$$PWD/translations/qt_pt_BR.ts
 
 macx {
 APPBUNDLE = "Yo-kai Editor 1.app"
