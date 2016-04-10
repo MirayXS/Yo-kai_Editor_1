@@ -279,16 +279,12 @@
         <translation>妖怪ウォッチ セーブデータ (*.yw)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="123"/>
-        <source>Yo-kai Watch 1 decrypted savedate(*.ywd)</source>
-        <translation>妖怪ウォッチ 復号済みセーブデータ (*.ywd)</translation>
-    </message>
-    <message>
         <location filename="../mainwindow.cpp" line="125"/>
         <source>select file to open</source>
         <translation>開くファイルを選択</translation>
     </message>
     <message>
+        <location filename="../mainwindow.cpp" line="123"/>
         <location filename="../mainwindow.cpp" line="142"/>
         <source>Yo-kai Watch 1 decrypted savedata(*.ywd)</source>
         <translation>妖怪ウォッチ 復号済みセーブデータ (*.ywd)</translation>

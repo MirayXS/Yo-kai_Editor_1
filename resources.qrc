@@ -25,6 +25,13 @@
         <file>data/creature_es_ES.xml</file>
     </qresource>
     <qresource prefix="/translations">
+        <file>translations/qt_de_DE.qm</file>
+        <file>translations/qt_it_IT.qm</file>
+        <file>translations/qt_zh_CN.qm</file>
+        <file>translations/qt_es_ES.qm</file>
         <file>translations/qt_ja_JP.qm</file>
+        <file>translations/qt_zh_TW.qm</file>
+        <file>translations/qt_fr_FR.qm</file>
+        <file>translations/qt_pt_BR.qm</file>
     </qresource>
 </RCC>

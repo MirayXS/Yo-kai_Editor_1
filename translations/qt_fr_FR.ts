@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="fr_FR">
+<TS version="2.1" language="fr_FR">
 <context>
     <name>EquipmentTab</name>
     <message>
@@ -279,16 +279,12 @@
         <translation>Yo-kai Watch 1 savedata(*.yw)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="123"/>
-        <source>Yo-kai Watch 1 decrypted savedate(*.ywd)</source>
-        <translation>Yo-kai Watch 1 savedata décrypté(*.ywd)</translation>
-    </message>
-    <message>
         <location filename="../mainwindow.cpp" line="125"/>
         <source>select file to open</source>
         <translation>Choisir un fichier à ouvrir</translation>
     </message>
     <message>
+        <location filename="../mainwindow.cpp" line="123"/>
         <location filename="../mainwindow.cpp" line="142"/>
         <source>Yo-kai Watch 1 decrypted savedata(*.ywd)</source>
         <translation>Yo-kai Watch 1 savedata décrypté(*.ywd)</translation>

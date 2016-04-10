@@ -280,17 +280,13 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="123"/>
-        <source>Yo-kai Watch 1 decrypted savedate(*.ywd)</source>
+        <location filename="../mainwindow.cpp" line="142"/>
+        <source>Yo-kai Watch 1 decrypted savedata(*.ywd)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="125"/>
         <source>select file to open</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="142"/>
-        <source>Yo-kai Watch 1 decrypted savedata(*.ywd)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
