@@ -9,4 +9,7 @@
         <file>data/youkai.xml</file>
         <file>data/creature.xml</file>
     </qresource>
+    <qresource prefix="/translations">
+        <file>translations/qt_ja_JP.qm</file>
+    </qresource>
 </RCC>

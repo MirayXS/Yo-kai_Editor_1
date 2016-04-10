@@ -41,7 +41,7 @@ void ImportantTab::update()
                         ui->itemCB->itemText(itemIndex)
                         );
         } else {
-            ui->listWidget->item(i)->setText("(unknown)");
+            ui->listWidget->item(i)->setText(tr("(unknown)"));
         }
     }
     ui->applyButton->setEnabled(true);
@@ -87,7 +87,7 @@ void ImportantTab::writeItemAt(int row)
                     ui->itemCB->itemText(itemIndex)
                     );
     } else {
-        ui->listWidget->item(row)->setText("(unknown)");
+        ui->listWidget->item(row)->setText(tr("(unknown)"));
     }
 }
 

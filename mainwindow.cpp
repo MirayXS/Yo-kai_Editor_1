@@ -36,11 +36,11 @@ MainWindow::MainWindow(QWidget *parent) :
     this->sectionTabs.append(et);
     this->sectionTabs.append(imt);
     this->sectionTabs.append(s9t);
-    ui->tabWidget->addTab(yt, "Yo-kai");
-    ui->tabWidget->addTab(it, "Items");
-    ui->tabWidget->addTab(et, "Equipment");
-    ui->tabWidget->addTab(imt, "Key Items");
-    ui->tabWidget->addTab(s9t, "Info");
+    ui->tabWidget->addTab(yt, tr("Yo-kai"));
+    ui->tabWidget->addTab(it, tr("Items"));
+    ui->tabWidget->addTab(et, tr("Equipment"));
+    ui->tabWidget->addTab(imt, tr("Key Items"));
+    ui->tabWidget->addTab(s9t, tr("Info"));
 }
 
 MainWindow::~MainWindow()
@@ -68,7 +68,7 @@ void MainWindow::openFileWithPath(const QString &file, bool encrypted)
         this->updateTabs();
     }
     if (status != Error::SUCCESS) {
-        QMessageBox::critical(this, "Error", QString("Error (%1)").arg(status));
+        QMessageBox::critical(this, "Error", QString(tr("Error (%1)")).arg(status));
     }
 }
 
@@ -84,7 +84,7 @@ void MainWindow::saveFileWithPath(const QString &file, bool encrypted)
         status = this->mgr->writeDecryptedFile(file);
     }
     if (status != Error::SUCCESS) {
-        QMessageBox::critical(this, "Error", QString("Error (%1)").arg(status));
+        QMessageBox::critical(this, "Error", QString(tr("Error (%1)")).arg(status));
     }
 }
 
@@ -118,11 +118,11 @@ void MainWindow::openFile(bool encrypted)
     QString filter;
 
     if (encrypted) {
-        filter = QString("Yo-kai Watch 1 savedata(*.yw)");
+        filter = QString(tr("Yo-kai Watch 1 savedata(*.yw)"));
     } else {
-        filter = QString("Yo-kai Watch 1 decrypted savedate(*.ywd)");
+        filter = QString(tr("Yo-kai Watch 1 decrypted savedate(*.ywd)"));
     }
-    file = QFileDialog::getOpenFileName(this, "select file to open",
+    file = QFileDialog::getOpenFileName(this, tr("select file to open"),
                                         this->mgr->getFilepath(), filter);
     if (file.isEmpty()) {
         return;
@@ -137,11 +137,11 @@ void MainWindow::saveFile(bool encrypted)
 
     if (this->mgr->loaded()) {
         if (encrypted) {
-            filter = QString("Yo-kai Watch 1 savedata(*.yw)");
+            filter = QString(tr("Yo-kai Watch 1 savedata(*.yw)"));
         } else {
-            filter = QString("Yo-kai Watch 1 decrypted savedata(*.ywd)");
+            filter = QString(tr("Yo-kai Watch 1 decrypted savedata(*.ywd)"));
         }
-        file = QFileDialog::getSaveFileName(this, "input filename",
+        file = QFileDialog::getSaveFileName(this, tr("input filename"),
                                             this->mgr->getFilepath(), filter);
 
         if (file.isEmpty()) {

@@ -78,6 +78,8 @@ FORMS    += mainwindow.ui \
     importanttab.ui \
     section9tab.ui
 
+TRANSLATIONS = $$PWD/translations/qt_ja_JP.ts
+
 macx {
 APPBUNDLE = "Yo-kai Editor 1.app"
 LIBS += -L/usr/local/lib -lcryptopp

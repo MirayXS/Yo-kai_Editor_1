@@ -45,7 +45,7 @@ void YoukaiTab::update()
                         ui->youkaiCB->itemText(itemIndex)
                         );
         } else {
-            ui->listWidget->item(i)->setText("(unknown)");
+            ui->listWidget->item(i)->setText(tr("(unknown)"));
         }
     }
     ui->applyButton->setEnabled(true);
@@ -163,7 +163,7 @@ void YoukaiTab::writeItemAt(int row)
                     ui->youkaiCB->itemText(itemIndex)
                     );
     } else {
-        ui->listWidget->item(row)->setText("(unknown)");
+        ui->listWidget->item(row)->setText(tr("(unknown)"));
     }
 }
 
@@ -185,10 +185,10 @@ void YoukaiTab::writeCurrentItem()
 
 void YoukaiTab::updateYoukaiCount()
 {
-    int ans = QMessageBox::question(this, "Confirm",
-                          "This operation updates your Yo-kai list in the section 10.\n"
+    int ans = QMessageBox::question(this, tr("Confirm"),
+                          tr("This operation updates your Yo-kai list in the section 10.\n"
                           "If you added Yo-kai with this app and it won't appear in the game, use this.\n\n"
-                          "This is experimental feature and can destroy your savedata.",
+                          "This is experimental feature and can destroy your savedata."),
                           QMessageBox::Ok | QMessageBox::Cancel, QMessageBox::Cancel);
     if (ans == QMessageBox::Ok) {
         this->writeCurrentItem();
@@ -202,9 +202,9 @@ void YoukaiTab::updateYoukaiCount()
 
 void YoukaiTab::automaticNumbering()
 {
-    int ans = QMessageBox::question(this, "Confirm",
-                          "This operation renumbers your Yo-kai's #1 and #2.\n\n"
-                          "This is experimental feature and can destroy your savedata.",
+    int ans = QMessageBox::question(this, tr("Confirm"),
+                          tr("This operation renumbers your Yo-kai's #1 and #2.\n\n"
+                          "This is experimental feature and can destroy your savedata."),
                           QMessageBox::Ok | QMessageBox::Cancel, QMessageBox::Cancel);
     if (ans == QMessageBox::Ok) {
         this->writeCurrentItem();
