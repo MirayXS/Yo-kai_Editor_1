@@ -120,7 +120,7 @@ void MainWindow::openFile(bool encrypted)
     if (encrypted) {
         filter = QString(tr("Yo-kai Watch 1 savedata(*.yw)"));
     } else {
-        filter = QString(tr("Yo-kai Watch 1 decrypted savedate(*.ywd)"));
+        filter = QString(tr("Yo-kai Watch 1 decrypted savedata(*.ywd)"));
     }
     file = QFileDialog::getOpenFileName(this, tr("select file to open"),
                                         this->mgr->getFilepath(), filter);
