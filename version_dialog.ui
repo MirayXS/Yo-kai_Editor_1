@@ -26,7 +26,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Yo-kai Editor 1</string>
+        <string notr="true" extracomment="Title of application. Do not change.">Yo-kai Editor 1</string>
        </property>
       </widget>
      </item>
@@ -49,7 +49,7 @@
            <item>
             <widget class="QLabel" name="version">
              <property name="text">
-              <string>null</string>
+              <string notr="true">null</string>
              </property>
             </widget>
            </item>

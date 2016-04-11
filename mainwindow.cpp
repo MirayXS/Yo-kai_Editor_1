@@ -122,7 +122,8 @@ void MainWindow::openFile(bool encrypted)
     } else {
         filter = QString(tr("Yo-kai Watch 1 decrypted savedata(*.ywd)"));
     }
-    file = QFileDialog::getOpenFileName(this, tr("select file to open"),
+    /*: This text is used as the title of open file dialog */
+    file = QFileDialog::getOpenFileName(this, tr("Open"),
                                         this->mgr->getFilepath(), filter);
     if (file.isEmpty()) {
         return;
@@ -141,7 +142,8 @@ void MainWindow::saveFile(bool encrypted)
         } else {
             filter = QString(tr("Yo-kai Watch 1 decrypted savedata(*.ywd)"));
         }
-        file = QFileDialog::getSaveFileName(this, tr("input filename"),
+        /*: This text is used as the title of save file dialog */
+        file = QFileDialog::getSaveFileName(this, tr("Save as"),
                                             this->mgr->getFilepath(), filter);
 
         if (file.isEmpty()) {
