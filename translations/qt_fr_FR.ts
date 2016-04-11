@@ -398,9 +398,13 @@
         <translation>Niveau</translation>
     </message>
     <message>
-        <location filename="../youkaitab.ui" line="93"/>
         <source>raw EV</source>
-        <translation>EV brut</translation>
+        <translation type="vanished">EV brut</translation>
+    </message>
+    <message>
+        <location filename="../youkaitab.ui" line="93"/>
+        <source>AP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youkaitab.ui" line="107"/>

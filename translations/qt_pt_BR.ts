@@ -359,7 +359,7 @@
     </message>
     <message>
         <location filename="../youkaitab.ui" line="93"/>
-        <source>raw EV</source>
+        <source>AP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

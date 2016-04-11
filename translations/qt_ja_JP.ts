@@ -366,9 +366,13 @@
         <translation>レベル</translation>
     </message>
     <message>
-        <location filename="../youkaitab.ui" line="93"/>
         <source>raw EV</source>
-        <translation>性格値ボーナス基本値</translation>
+        <translation type="vanished">性格値ボーナス基本値</translation>
+    </message>
+    <message>
+        <location filename="../youkaitab.ui" line="93"/>
+        <source>AP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youkaitab.ui" line="107"/>
