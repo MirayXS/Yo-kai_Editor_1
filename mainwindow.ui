@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Yo-kai Editor 1</string>
+   <string notr="true">Yo-kai Editor 1</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QGridLayout" name="gridLayout">
@@ -28,7 +28,7 @@
            </font>
           </property>
           <property name="text">
-           <string>Yo-kai Editor 1</string>
+           <string notr="true">Yo-kai Editor 1</string>
           </property>
          </widget>
         </item>
@@ -55,7 +55,7 @@
         <item>
          <widget class="QLabel" name="version_label">
           <property name="text">
-           <string>null</string>
+           <string notr="true">null</string>
           </property>
          </widget>
         </item>

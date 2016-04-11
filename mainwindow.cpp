@@ -36,10 +36,15 @@ MainWindow::MainWindow(QWidget *parent) :
     this->sectionTabs.append(et);
     this->sectionTabs.append(imt);
     this->sectionTabs.append(s9t);
+    /*: name of Yo-kai tab */
     ui->tabWidget->addTab(yt, tr("Yo-kai"));
+    /*: name of Items tab */
     ui->tabWidget->addTab(it, tr("Items"));
+    /*: name of Equipment tab */
     ui->tabWidget->addTab(et, tr("Equipment"));
+    /*: name of Key Items tab */
     ui->tabWidget->addTab(imt, tr("Key Items"));
+    /*: name of Info tab */
     ui->tabWidget->addTab(s9t, tr("Info"));
 }
 
