@@ -4,9 +4,8 @@
 <context>
     <name>EquipmentTab</name>
     <message>
-        <location filename="../equipmenttab.ui" line="14"/>
         <source>Form</source>
-        <translation>Formulaire</translation>
+        <translation type="vanished">Formulaire</translation>
     </message>
     <message>
         <location filename="../equipmenttab.ui" line="36"/>
@@ -58,9 +57,8 @@
 <context>
     <name>ImportantTab</name>
     <message>
-        <location filename="../importanttab.ui" line="14"/>
         <source>Form</source>
-        <translation>Formulaire</translation>
+        <translation type="vanished">Formulaire</translation>
     </message>
     <message>
         <location filename="../importanttab.ui" line="36"/>
@@ -102,9 +100,8 @@
 <context>
     <name>ItemTab</name>
     <message>
-        <location filename="../itemtab.ui" line="14"/>
         <source>Form</source>
-        <translation>Formulaire</translation>
+        <translation type="vanished">Formulaire</translation>
     </message>
     <message>
         <location filename="../itemtab.ui" line="36"/>
@@ -151,10 +148,8 @@
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../mainwindow.ui" line="14"/>
-        <location filename="../mainwindow.ui" line="31"/>
         <source>Yo-kai Editor 1</source>
-        <translation>Yo-kai Watch 1 Editeur</translation>
+        <translation type="vanished">Yo-kai Watch 1 Editeur</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="51"/>
@@ -162,9 +157,8 @@
         <translation>version</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="58"/>
         <source>null</source>
-        <translation>nul</translation>
+        <translation type="vanished">nul</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="86"/>
@@ -242,57 +236,68 @@
         <translation>Ctrl+Shift+S</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="39"/>
+        <location filename="../mainwindow.cpp" line="40"/>
         <source>Yo-kai</source>
+        <extracomment>name of Yo-kai tab</extracomment>
         <translation>Yo-kai</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="40"/>
+        <location filename="../mainwindow.cpp" line="42"/>
         <source>Items</source>
+        <extracomment>name of Items tab</extracomment>
         <translation>Objets</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="41"/>
+        <location filename="../mainwindow.cpp" line="44"/>
         <source>Equipment</source>
+        <extracomment>name of Equipment tab</extracomment>
         <translation>Équipement</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="42"/>
+        <location filename="../mainwindow.cpp" line="46"/>
         <source>Key Items</source>
+        <extracomment>name of Key Items tab</extracomment>
         <translation>Objets clés</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="43"/>
+        <location filename="../mainwindow.cpp" line="48"/>
         <source>Info</source>
+        <extracomment>name of Info tab</extracomment>
         <translation>Info</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="71"/>
-        <location filename="../mainwindow.cpp" line="87"/>
+        <location filename="../mainwindow.cpp" line="76"/>
+        <location filename="../mainwindow.cpp" line="92"/>
         <source>Error (%1)</source>
         <translation>Erreur (%1)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="121"/>
-        <location filename="../mainwindow.cpp" line="140"/>
+        <location filename="../mainwindow.cpp" line="126"/>
+        <location filename="../mainwindow.cpp" line="146"/>
         <source>Yo-kai Watch 1 savedata(*.yw)</source>
         <translation>Yo-kai Watch 1 savedata(*.yw)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="125"/>
-        <source>select file to open</source>
-        <translation>Choisir un fichier à ouvrir</translation>
+        <location filename="../mainwindow.cpp" line="131"/>
+        <source>Open</source>
+        <extracomment>This text is used as the title of open file dialog</extracomment>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="123"/>
-        <location filename="../mainwindow.cpp" line="142"/>
+        <location filename="../mainwindow.cpp" line="151"/>
+        <source>Save as</source>
+        <extracomment>This text is used as the title of save file dialog</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>select file to open</source>
+        <translation type="vanished">Choisir un fichier à ouvrir</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="128"/>
+        <location filename="../mainwindow.cpp" line="148"/>
         <source>Yo-kai Watch 1 decrypted savedata(*.ywd)</source>
         <translation>Yo-kai Watch 1 savedata décrypté(*.ywd)</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="144"/>
-        <source>input filename</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -311,9 +316,8 @@
 <context>
     <name>Section9Tab</name>
     <message>
-        <location filename="../section9tab.ui" line="14"/>
         <source>Form</source>
-        <translation>Formualire</translation>
+        <translation type="vanished">Formualire</translation>
     </message>
     <message>
         <location filename="../section9tab.ui" line="22"/>
@@ -339,9 +343,8 @@
         <translation>Information version</translation>
     </message>
     <message>
-        <location filename="../version_dialog.ui" line="29"/>
         <source>Yo-kai Editor 1</source>
-        <translation>Yo-kai Watch 1 Éditeur</translation>
+        <translation type="vanished">Yo-kai Watch 1 Éditeur</translation>
     </message>
     <message>
         <location filename="../version_dialog.ui" line="45"/>
@@ -349,9 +352,8 @@
         <translation>version</translation>
     </message>
     <message>
-        <location filename="../version_dialog.ui" line="52"/>
         <source>null</source>
-        <translation>nul</translation>
+        <translation type="vanished">nul</translation>
     </message>
     <message>
         <location filename="../version_dialog.ui" line="61"/>
@@ -372,9 +374,8 @@
 <context>
     <name>YoukaiTab</name>
     <message>
-        <location filename="../youkaitab.ui" line="14"/>
         <source>Form</source>
-        <translation>Formulaire</translation>
+        <translation type="vanished">Formulaire</translation>
     </message>
     <message>
         <location filename="../youkaitab.ui" line="34"/>

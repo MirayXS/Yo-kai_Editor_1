@@ -4,11 +4,6 @@
 <context>
     <name>EquipmentTab</name>
     <message>
-        <location filename="../equipmenttab.ui" line="14"/>
-        <source>Form</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../equipmenttab.ui" line="36"/>
         <source>General</source>
         <translation type="unfinished"></translation>
@@ -58,11 +53,6 @@
 <context>
     <name>ImportantTab</name>
     <message>
-        <location filename="../importanttab.ui" line="14"/>
-        <source>Form</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../importanttab.ui" line="36"/>
         <source>General</source>
         <translation type="unfinished"></translation>
@@ -101,11 +91,6 @@
 </context>
 <context>
     <name>ItemTab</name>
-    <message>
-        <location filename="../itemtab.ui" line="14"/>
-        <source>Form</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <location filename="../itemtab.ui" line="36"/>
         <source>General</source>
@@ -151,19 +136,8 @@
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../mainwindow.ui" line="14"/>
-        <location filename="../mainwindow.ui" line="31"/>
-        <source>Yo-kai Editor 1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../mainwindow.ui" line="51"/>
         <source>version</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="58"/>
-        <source>null</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -242,56 +216,63 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="39"/>
-        <source>Yo-kai</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../mainwindow.cpp" line="40"/>
-        <source>Items</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="41"/>
-        <source>Equipment</source>
+        <source>Yo-kai</source>
+        <extracomment>name of Yo-kai tab</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="42"/>
+        <source>Items</source>
+        <extracomment>name of Items tab</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="44"/>
+        <source>Equipment</source>
+        <extracomment>name of Equipment tab</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="46"/>
         <source>Key Items</source>
+        <extracomment>name of Key Items tab</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="43"/>
+        <location filename="../mainwindow.cpp" line="48"/>
         <source>Info</source>
+        <extracomment>name of Info tab</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="71"/>
-        <location filename="../mainwindow.cpp" line="87"/>
+        <location filename="../mainwindow.cpp" line="76"/>
+        <location filename="../mainwindow.cpp" line="92"/>
         <source>Error (%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="121"/>
-        <location filename="../mainwindow.cpp" line="140"/>
+        <location filename="../mainwindow.cpp" line="126"/>
+        <location filename="../mainwindow.cpp" line="146"/>
         <source>Yo-kai Watch 1 savedata(*.yw)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="123"/>
-        <location filename="../mainwindow.cpp" line="142"/>
+        <location filename="../mainwindow.cpp" line="128"/>
+        <location filename="../mainwindow.cpp" line="148"/>
         <source>Yo-kai Watch 1 decrypted savedata(*.ywd)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="125"/>
-        <source>select file to open</source>
+        <location filename="../mainwindow.cpp" line="131"/>
+        <source>Open</source>
+        <extracomment>This text is used as the title of open file dialog</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="144"/>
-        <source>input filename</source>
+        <location filename="../mainwindow.cpp" line="151"/>
+        <source>Save as</source>
+        <extracomment>This text is used as the title of save file dialog</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -310,11 +291,6 @@
 </context>
 <context>
     <name>Section9Tab</name>
-    <message>
-        <location filename="../section9tab.ui" line="14"/>
-        <source>Form</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <location filename="../section9tab.ui" line="22"/>
         <source>Money</source>
@@ -339,18 +315,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../version_dialog.ui" line="29"/>
-        <source>Yo-kai Editor 1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../version_dialog.ui" line="45"/>
         <source>version</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../version_dialog.ui" line="52"/>
-        <source>null</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -371,11 +337,6 @@
 </context>
 <context>
     <name>YoukaiTab</name>
-    <message>
-        <location filename="../youkaitab.ui" line="14"/>
-        <source>Form</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <location filename="../youkaitab.ui" line="34"/>
         <source>General</source>
