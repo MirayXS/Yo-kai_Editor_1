@@ -94,14 +94,11 @@ $$PWD/translations/qt_pt_BR.ts
 
 macx {
 APPBUNDLE = "Yo-kai Editor 1.app"
-LIBS += -L/usr/local/lib -lcryptopp
-INCLUDEPATH += /usr/local/include
 QMAKE_CXXFLAGS_WARN_ON += -Wno-unknown-pragmas
 QMAKE_TARGET_BUNDLE_PREFIX = jp.togenyan
 }
 
-win32:LIBS += -L$$PWD/../lib/ -lcryptlib
-
+win32:LIBS += -L$$PWD/../lib/
 win32:INCLUDEPATH += $$PWD/../include
 win32:DEPENDPATH += $$PWD/../include
 
