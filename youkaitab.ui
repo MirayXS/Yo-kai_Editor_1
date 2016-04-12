@@ -90,7 +90,7 @@
             <item row="8" column="0">
              <widget class="QLabel" name="label_10">
               <property name="text">
-               <string>AP</string>
+               <string extracomment="AP stands for &quot;attitude point&quot;">AP</string>
               </property>
              </widget>
             </item>
