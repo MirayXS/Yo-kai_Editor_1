@@ -28,6 +28,8 @@ public:
     template <class V> V readSection(int offset, quint8 sectionId);
     QString readString(int offset, int lenInBytes, quint8 sectionId);
     void writeString(QString in, int offset, int lenInBytes, quint8 sectionId);
+    QVector<bool> readBoolVector(int offset, int count, quint8 sectionId);
+    void writeBoolVector(const QVector<bool> &v, int offset, quint8 sectionId);
     QString getFilepath() const;
     QTreeWidget *getTw() const;
     Section *getSectionById(quint8 id);

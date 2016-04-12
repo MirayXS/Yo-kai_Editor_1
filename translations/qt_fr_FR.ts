@@ -236,55 +236,61 @@
         <translation>Ctrl+Shift+S</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="40"/>
+        <location filename="../mainwindow.cpp" line="42"/>
         <source>Yo-kai</source>
         <extracomment>name of Yo-kai tab</extracomment>
         <translation>Yo-kai</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="42"/>
+        <location filename="../mainwindow.cpp" line="44"/>
         <source>Items</source>
         <extracomment>name of Items tab</extracomment>
         <translation>Objets</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="44"/>
+        <location filename="../mainwindow.cpp" line="46"/>
         <source>Equipment</source>
         <extracomment>name of Equipment tab</extracomment>
         <translation>Équipement</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="46"/>
+        <location filename="../mainwindow.cpp" line="48"/>
         <source>Key Items</source>
         <extracomment>name of Key Items tab</extracomment>
         <translation>Objets clés</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="48"/>
+        <location filename="../mainwindow.cpp" line="50"/>
         <source>Info</source>
         <extracomment>name of Info tab</extracomment>
         <translation>Info</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="76"/>
-        <location filename="../mainwindow.cpp" line="92"/>
+        <location filename="../mainwindow.cpp" line="52"/>
+        <source>Medalium</source>
+        <extracomment>name of Medalium tab</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="80"/>
+        <location filename="../mainwindow.cpp" line="96"/>
         <source>Error (%1)</source>
         <translation>Erreur (%1)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="126"/>
-        <location filename="../mainwindow.cpp" line="146"/>
+        <location filename="../mainwindow.cpp" line="130"/>
+        <location filename="../mainwindow.cpp" line="150"/>
         <source>Yo-kai Watch 1 savedata(*.yw)</source>
         <translation>Yo-kai Watch 1 savedata(*.yw)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="131"/>
+        <location filename="../mainwindow.cpp" line="135"/>
         <source>Open</source>
         <extracomment>This text is used as the title of open file dialog</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="151"/>
+        <location filename="../mainwindow.cpp" line="155"/>
         <source>Save as</source>
         <extracomment>This text is used as the title of save file dialog</extracomment>
         <translation type="unfinished"></translation>
@@ -294,8 +300,8 @@
         <translation type="vanished">Choisir un fichier à ouvrir</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="128"/>
-        <location filename="../mainwindow.cpp" line="148"/>
+        <location filename="../mainwindow.cpp" line="132"/>
+        <location filename="../mainwindow.cpp" line="152"/>
         <source>Yo-kai Watch 1 decrypted savedata(*.ywd)</source>
         <translation>Yo-kai Watch 1 savedata décrypté(*.ywd)</translation>
     </message>
@@ -311,6 +317,48 @@
         <location filename="../manualeditdialog.ui" line="20"/>
         <source>Do not change the length of sections.</source>
         <translation>Ne pas modifier la longueur des sections.</translation>
+    </message>
+</context>
+<context>
+    <name>MedaliumTab</name>
+    <message>
+        <location filename="../medaliumtab.ui" line="24"/>
+        <source>Seen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../medaliumtab.ui" line="37"/>
+        <location filename="../medaliumtab.ui" line="74"/>
+        <location filename="../medaliumtab.ui" line="111"/>
+        <source>Check all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../medaliumtab.ui" line="47"/>
+        <location filename="../medaliumtab.ui" line="84"/>
+        <location filename="../medaliumtab.ui" line="121"/>
+        <source>Uncheck all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../medaliumtab.ui" line="61"/>
+        <source>Befriended</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../medaliumtab.ui" line="98"/>
+        <source>Yo-kai Cam</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../medaliumtab.ui" line="157"/>
+        <source>Reset</source>
+        <translation type="unfinished">Réinitialisation</translation>
+    </message>
+    <message>
+        <location filename="../medaliumtab.ui" line="167"/>
+        <source>Apply</source>
+        <translation type="unfinished">Appliquer</translation>
     </message>
 </context>
 <context>

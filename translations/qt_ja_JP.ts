@@ -216,55 +216,61 @@
         <translation></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="40"/>
+        <location filename="../mainwindow.cpp" line="42"/>
         <source>Yo-kai</source>
         <extracomment>name of Yo-kai tab</extracomment>
         <translation>妖怪</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="42"/>
+        <location filename="../mainwindow.cpp" line="44"/>
         <source>Items</source>
         <extracomment>name of Items tab</extracomment>
         <translation>どうぐ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="44"/>
+        <location filename="../mainwindow.cpp" line="46"/>
         <source>Equipment</source>
         <extracomment>name of Equipment tab</extracomment>
         <translation>そうび</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="46"/>
+        <location filename="../mainwindow.cpp" line="48"/>
         <source>Key Items</source>
         <extracomment>name of Key Items tab</extracomment>
         <translation>だいじなもの</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="48"/>
+        <location filename="../mainwindow.cpp" line="50"/>
         <source>Info</source>
         <extracomment>name of Info tab</extracomment>
         <translation>情報</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="76"/>
-        <location filename="../mainwindow.cpp" line="92"/>
+        <location filename="../mainwindow.cpp" line="52"/>
+        <source>Medalium</source>
+        <extracomment>name of Medalium tab</extracomment>
+        <translation>妖怪大辞典</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="80"/>
+        <location filename="../mainwindow.cpp" line="96"/>
         <source>Error (%1)</source>
         <translation>エラー (%1)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="126"/>
-        <location filename="../mainwindow.cpp" line="146"/>
+        <location filename="../mainwindow.cpp" line="130"/>
+        <location filename="../mainwindow.cpp" line="150"/>
         <source>Yo-kai Watch 1 savedata(*.yw)</source>
         <translation>妖怪ウォッチ セーブデータ (*.yw)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="131"/>
+        <location filename="../mainwindow.cpp" line="135"/>
         <source>Open</source>
         <extracomment>This text is used as the title of open file dialog</extracomment>
         <translation>開く</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="151"/>
+        <location filename="../mainwindow.cpp" line="155"/>
         <source>Save as</source>
         <extracomment>This text is used as the title of save file dialog</extracomment>
         <translation>別名で保存</translation>
@@ -274,8 +280,8 @@
         <translation type="vanished">開くファイルを選択</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="128"/>
-        <location filename="../mainwindow.cpp" line="148"/>
+        <location filename="../mainwindow.cpp" line="132"/>
+        <location filename="../mainwindow.cpp" line="152"/>
         <source>Yo-kai Watch 1 decrypted savedata(*.ywd)</source>
         <translation>妖怪ウォッチ 復号済みセーブデータ (*.ywd)</translation>
     </message>
@@ -295,6 +301,48 @@
         <location filename="../manualeditdialog.ui" line="20"/>
         <source>Do not change the length of sections.</source>
         <translation>セクションの長さを変更しないでください。</translation>
+    </message>
+</context>
+<context>
+    <name>MedaliumTab</name>
+    <message>
+        <location filename="../medaliumtab.ui" line="24"/>
+        <source>Seen</source>
+        <translation>見つけた</translation>
+    </message>
+    <message>
+        <location filename="../medaliumtab.ui" line="37"/>
+        <location filename="../medaliumtab.ui" line="74"/>
+        <location filename="../medaliumtab.ui" line="111"/>
+        <source>Check all</source>
+        <translation>全部</translation>
+    </message>
+    <message>
+        <location filename="../medaliumtab.ui" line="47"/>
+        <location filename="../medaliumtab.ui" line="84"/>
+        <location filename="../medaliumtab.ui" line="121"/>
+        <source>Uncheck all</source>
+        <translation>全部なし</translation>
+    </message>
+    <message>
+        <location filename="../medaliumtab.ui" line="61"/>
+        <source>Befriended</source>
+        <translation>ともだちになった</translation>
+    </message>
+    <message>
+        <location filename="../medaliumtab.ui" line="98"/>
+        <source>Yo-kai Cam</source>
+        <translation>妖怪レンズ</translation>
+    </message>
+    <message>
+        <location filename="../medaliumtab.ui" line="157"/>
+        <source>Reset</source>
+        <translation>リセット</translation>
+    </message>
+    <message>
+        <location filename="../medaliumtab.ui" line="167"/>
+        <source>Apply</source>
+        <translation>適用</translation>
     </message>
 </context>
 <context>
@@ -372,7 +420,7 @@
     <message>
         <location filename="../youkaitab.ui" line="93"/>
         <source>AP</source>
-        <translation type="unfinished"></translation>
+        <translation>AP</translation>
     </message>
     <message>
         <location filename="../youkaitab.ui" line="107"/>

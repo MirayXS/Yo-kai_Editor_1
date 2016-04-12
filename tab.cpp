@@ -51,6 +51,21 @@ void Tab::writeString(QString in, int offset, int lenInBytes)
     }
 }
 
+QVector<bool> Tab::readBoolVector(int offset, int count)
+{
+    if (mgr) {
+        return this->mgr->readBoolVector(offset, count, this->sectionId);
+    }
+    return QVector<bool>();
+}
+
+void Tab::writeBoolVector(const QVector<bool> &v, int offset)
+{
+    if (mgr) {
+        this->mgr->writeBoolVector(v, offset, this->sectionId);
+    }
+}
+
 SaveManager *Tab::getMgr() const
 {
     return mgr;

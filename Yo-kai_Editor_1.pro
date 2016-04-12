@@ -38,7 +38,9 @@ SOURCES += main.cpp\
     equipmenttab.cpp \
     importanttab.cpp \
     section.cpp \
-    section9tab.cpp
+    section9tab.cpp \
+    medaliumtab.cpp \
+    youkaichecklist.cpp
 
 HEADERS  += mainwindow.h \
     version.h \
@@ -67,7 +69,9 @@ HEADERS  += mainwindow.h \
     equipmenttab.h \
     importanttab.h \
     section.h \
-    section9tab.h
+    section9tab.h \
+    medaliumtab.h \
+    youkaichecklist.h
 
 FORMS    += mainwindow.ui \
     version_dialog.ui \
@@ -76,7 +80,8 @@ FORMS    += mainwindow.ui \
     itemtab.ui \
     equipmenttab.ui \
     importanttab.ui \
-    section9tab.ui
+    section9tab.ui \
+    medaliumtab.ui
 
 TRANSLATIONS = $$PWD/translations/qt_ja_JP.ts \
 $$PWD/translations/qt_fr_FR.ts \

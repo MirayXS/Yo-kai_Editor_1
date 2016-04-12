@@ -231,6 +231,40 @@ void SaveManager::writeString(QString in, int offset, int lenInBytes, quint8 sec
     this->bodyData.replace(s->getOffset() + offset, str.size(), str);
 }
 
+QVector<bool> SaveManager::readBoolVector(int offset, int count, quint8 sectionId)
+{
+    /*
+     * The argument count is the minimum element count in the returned QVector<bool>
+     */
+    QVector<bool> out;
+    int lenInBytes = (count + 8 - 1) / 8;
+    for (int i = 0; i < lenInBytes; ++i) {
+        quint8 d = this->readSection<quint8>(offset + i, sectionId);
+        for (int j = 0; j < 8; ++j) {
+            out.append(d & (1 << j));
+        }
+    }
+    return out;
+}
+
+void SaveManager::writeBoolVector(const QVector<bool> &v, int offset, quint8 sectionId)
+{
+    /*
+     * This function assumes v has 8*n elements, where n is a natural number.
+     * If not, it regards left elements as false.
+     * [1, 1, 1] -> [1, 1, 1, 0, 0, 0, 0, 0]
+     */
+    for (int i = 0; i < (v.count() + 8 - 1) / 8; ++i) {
+        quint8 d = 0;
+        for (int j = 0; j < 8; ++j) {
+            if (v.value(i * 8 + j, false)) {
+                d |= 1 << j;
+            }
+        }
+        this->writeSection<quint8>(d, offset + i, sectionId);
+    }
+}
+
 QString SaveManager::getFilepath() const
 {
     if (this->loaded()) {

@@ -1,4 +1,4 @@
-#pragma execution_character_set("utf-8")
+﻿#pragma execution_character_set("utf-8")
 
 #ifndef TAB_H
 #define TAB_H
@@ -26,6 +26,8 @@ protected:
     template <class V> V read(int offset);
     QString readString(int offset, int lenInBytes);
     void writeString(QString in, int offset, int lenInBytes);
+    QVector<bool> readBoolVector(int offset, int count);
+    void writeBoolVector(const QVector<bool> &v, int offset);
 
 private:
     SaveManager *mgr;
