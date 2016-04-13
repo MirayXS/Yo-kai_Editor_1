@@ -5,6 +5,7 @@ Fix a CRITICAL bug in Yo-kai editing - v0.1 has out-of-bounds write bug, which c
 Correct id of Grainpa
 Support localization
 Add French localization (thanks the community of Yo-kai Watch World)
+Add Yo-kai Medallium editing
 
 v0.1 2016-03-30
 initial release
