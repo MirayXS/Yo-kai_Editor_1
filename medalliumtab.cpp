@@ -13,7 +13,7 @@ MedalliumTab::MedalliumTab(SaveManager *mgr, QWidget *parent, int sectionId) :
     /* intert items into list */
     this->seen = new YoukaiCheckList(sectionId, 0x400, mgr);
     this->befriended = new YoukaiCheckList(sectionId, 0x420, mgr);
-    this->youkaiCam = new YoukaiCheckList(sectionId, 0x440, mgr);
+    this->youkaiCam = new YoukaiCheckList(sectionId, 0x460, mgr);
     ui->seenLayout->insertWidget(0, this->seen);
     ui->befriendedLayout->insertWidget(0, this->befriended);
     ui->youkaiCamLayout->insertWidget(0, this->youkaiCam);
