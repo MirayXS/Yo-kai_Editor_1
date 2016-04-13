@@ -8,21 +8,21 @@
 #include "youkaichecklist.h"
 
 namespace Ui {
-class MedaliumTab;
+class MedalliumTab;
 }
 
-class MedaliumTab : public Tab
+class MedalliumTab : public Tab
 {
     Q_OBJECT
 
 public:
-    explicit MedaliumTab(SaveManager *mgr, QWidget *parent=0, int sectionId=-1);
-    ~MedaliumTab();
+    explicit MedalliumTab(SaveManager *mgr, QWidget *parent=0, int sectionId=-1);
+    ~MedalliumTab();
 public slots:
     void update();
     void apply();
 private:
-    Ui::MedaliumTab *ui;
+    Ui::MedalliumTab *ui;
     YoukaiCheckList *seen;
     YoukaiCheckList *befriended;
     YoukaiCheckList *youkaiCam;

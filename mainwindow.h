@@ -17,7 +17,7 @@
 #include "importanttab.h"
 #include "section9tab.h"
 #include "manualeditdialog.h"
-#include "medaliumtab.h"
+#include "medalliumtab.h"
 
 namespace Ui {
 class MainWindow;

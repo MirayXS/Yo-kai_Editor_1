@@ -151,7 +151,7 @@ void YoukaiTab::writeItemAt(int row)
         this->write<quint8>(ui->EV_DefSB->value(), 0x4D + 0x5C * row); // EV_Def
         this->write<quint8>(ui->EV_SpdSB->value(), 0x4E + 0x5C * row); // EV_Spd
         this->write<quint8>(ui->levelSB->value(), 0x54 + 0x5C * row); // level
-        this->write<qint32>(ui->evSB->value(), 0x5A + 0x5C * row); // rawEV
+        this->write<quint16>(ui->evSB->value(), 0x5A + 0x5C * row); // rawEV
     }
 
     /* update */

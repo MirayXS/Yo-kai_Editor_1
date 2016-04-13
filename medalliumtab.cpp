@@ -1,11 +1,11 @@
 ﻿#pragma execution_character_set("utf-8")
 
-#include "medaliumtab.h"
-#include "ui_medaliumtab.h"
+#include "medalliumtab.h"
+#include "ui_medalliumtab.h"
 
-MedaliumTab::MedaliumTab(SaveManager *mgr, QWidget *parent, int sectionId) :
+MedalliumTab::MedalliumTab(SaveManager *mgr, QWidget *parent, int sectionId) :
     Tab(mgr, parent, sectionId),
-    ui(new Ui::MedaliumTab)
+    ui(new Ui::MedalliumTab)
 {
     ui->setupUi(this);
     connect(ui->resetButton, SIGNAL(clicked(bool)), SLOT(update()));
@@ -25,12 +25,12 @@ MedaliumTab::MedaliumTab(SaveManager *mgr, QWidget *parent, int sectionId) :
     connect(ui->youkaiCamUncheckAll, SIGNAL(clicked(bool)), this->youkaiCam, SLOT(setAllUnchecked()));
 }
 
-MedaliumTab::~MedaliumTab()
+MedalliumTab::~MedalliumTab()
 {
     delete ui;
 }
 
-void MedaliumTab::update()
+void MedalliumTab::update()
 {
     this->seen->update();
     this->befriended->update();
@@ -45,7 +45,7 @@ void MedaliumTab::update()
     ui->youkaiCamUncheckAll->setEnabled(true);
 }
 
-void MedaliumTab::apply()
+void MedalliumTab::apply()
 {
     this->seen->apply();
     this->befriended->apply();

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MedaliumTab</class>
- <widget class="QWidget" name="MedaliumTab">
+ <class>MedalliumTab</class>
+ <widget class="QWidget" name="MedalliumTab">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>789</width>
+    <width>795</width>
     <height>491</height>
    </rect>
   </property>

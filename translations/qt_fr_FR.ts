@@ -267,9 +267,9 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="52"/>
-        <source>Medalium</source>
-        <extracomment>name of Medalium tab</extracomment>
-        <translation type="unfinished"></translation>
+        <source>Medallium</source>
+        <extracomment>name of Medallium tab</extracomment>
+        <translation>Médallium</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="80"/>
@@ -287,13 +287,13 @@
         <location filename="../mainwindow.cpp" line="135"/>
         <source>Open</source>
         <extracomment>This text is used as the title of open file dialog</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Ouvrir</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="155"/>
         <source>Save as</source>
         <extracomment>This text is used as the title of save file dialog</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Enregistrer sous</translation>
     </message>
     <message>
         <source>select file to open</source>
@@ -320,45 +320,45 @@
     </message>
 </context>
 <context>
-    <name>MedaliumTab</name>
+    <name>MedalliumTab</name>
     <message>
-        <location filename="../medaliumtab.ui" line="24"/>
+        <location filename="../medalliumtab.ui" line="24"/>
         <source>Seen</source>
-        <translation type="unfinished"></translation>
+        <translation>Vu</translation>
     </message>
     <message>
-        <location filename="../medaliumtab.ui" line="37"/>
-        <location filename="../medaliumtab.ui" line="74"/>
-        <location filename="../medaliumtab.ui" line="111"/>
+        <location filename="../medalliumtab.ui" line="37"/>
+        <location filename="../medalliumtab.ui" line="74"/>
+        <location filename="../medalliumtab.ui" line="111"/>
         <source>Check all</source>
-        <translation type="unfinished"></translation>
+        <translation>Cocher tout</translation>
     </message>
     <message>
-        <location filename="../medaliumtab.ui" line="47"/>
-        <location filename="../medaliumtab.ui" line="84"/>
-        <location filename="../medaliumtab.ui" line="121"/>
+        <location filename="../medalliumtab.ui" line="47"/>
+        <location filename="../medalliumtab.ui" line="84"/>
+        <location filename="../medalliumtab.ui" line="121"/>
         <source>Uncheck all</source>
-        <translation type="unfinished"></translation>
+        <translation>Décocher tout</translation>
     </message>
     <message>
-        <location filename="../medaliumtab.ui" line="61"/>
+        <location filename="../medalliumtab.ui" line="61"/>
         <source>Befriended</source>
-        <translation type="unfinished"></translation>
+        <translation>Lié d&apos;amitié</translation>
     </message>
     <message>
-        <location filename="../medaliumtab.ui" line="98"/>
+        <location filename="../medalliumtab.ui" line="98"/>
         <source>Yo-kai Cam</source>
-        <translation type="unfinished"></translation>
+        <translation>Yo-kai Caméra</translation>
     </message>
     <message>
-        <location filename="../medaliumtab.ui" line="157"/>
+        <location filename="../medalliumtab.ui" line="157"/>
         <source>Reset</source>
-        <translation type="unfinished">Réinitialisation</translation>
+        <translation>Réinitialisation</translation>
     </message>
     <message>
-        <location filename="../medaliumtab.ui" line="167"/>
+        <location filename="../medalliumtab.ui" line="167"/>
         <source>Apply</source>
-        <translation type="unfinished">Appliquer</translation>
+        <translation>Appliquer</translation>
     </message>
 </context>
 <context>
@@ -404,14 +404,12 @@
         <translation type="vanished">nul</translation>
     </message>
     <message>
-        <location filename="../version_dialog.ui" line="61"/>
         <source>Copyright (c) 2016 togenyan</source>
-        <translation>Copyright (c) 2016 togenyan</translation>
+        <translation type="vanished">Copyright (c) 2016 togenyan</translation>
     </message>
     <message>
-        <location filename="../version_dialog.ui" line="68"/>
         <source>&lt;a href=&quot;mailto:nyantoge@gmail.com&quot;&gt;nyantoge@gmail.com&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;mailto:nyantoge@gmail.com&quot;&gt;nyantoge@gmail.com&lt;/a&gt;</translation>
+        <translation type="vanished">&lt;a href=&quot;mailto:nyantoge@gmail.com&quot;&gt;nyantoge@gmail.com&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../version_dialog.ui" line="99"/>
@@ -452,7 +450,9 @@
     <message>
         <location filename="../youkaitab.ui" line="93"/>
         <source>AP</source>
-        <translation type="unfinished"></translation>
+        <extracomment>AP stands for &quot;attitude point&quot;</extracomment>
+        <translatorcomment>Points personnalité.</translatorcomment>
+        <translation>PP</translation>
     </message>
     <message>
         <location filename="../youkaitab.ui" line="107"/>

@@ -247,8 +247,8 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="52"/>
-        <source>Medalium</source>
-        <extracomment>name of Medalium tab</extracomment>
+        <source>Medallium</source>
+        <extracomment>name of Medallium tab</extracomment>
         <translation>妖怪大辞典</translation>
     </message>
     <message>
@@ -304,43 +304,43 @@
     </message>
 </context>
 <context>
-    <name>MedaliumTab</name>
+    <name>MedalliumTab</name>
     <message>
-        <location filename="../medaliumtab.ui" line="24"/>
+        <location filename="../medalliumtab.ui" line="24"/>
         <source>Seen</source>
         <translation>見つけた</translation>
     </message>
     <message>
-        <location filename="../medaliumtab.ui" line="37"/>
-        <location filename="../medaliumtab.ui" line="74"/>
-        <location filename="../medaliumtab.ui" line="111"/>
+        <location filename="../medalliumtab.ui" line="37"/>
+        <location filename="../medalliumtab.ui" line="74"/>
+        <location filename="../medalliumtab.ui" line="111"/>
         <source>Check all</source>
         <translation>全部</translation>
     </message>
     <message>
-        <location filename="../medaliumtab.ui" line="47"/>
-        <location filename="../medaliumtab.ui" line="84"/>
-        <location filename="../medaliumtab.ui" line="121"/>
+        <location filename="../medalliumtab.ui" line="47"/>
+        <location filename="../medalliumtab.ui" line="84"/>
+        <location filename="../medalliumtab.ui" line="121"/>
         <source>Uncheck all</source>
         <translation>全部なし</translation>
     </message>
     <message>
-        <location filename="../medaliumtab.ui" line="61"/>
+        <location filename="../medalliumtab.ui" line="61"/>
         <source>Befriended</source>
         <translation>ともだちになった</translation>
     </message>
     <message>
-        <location filename="../medaliumtab.ui" line="98"/>
+        <location filename="../medalliumtab.ui" line="98"/>
         <source>Yo-kai Cam</source>
         <translation>妖怪レンズ</translation>
     </message>
     <message>
-        <location filename="../medaliumtab.ui" line="157"/>
+        <location filename="../medalliumtab.ui" line="157"/>
         <source>Reset</source>
         <translation>リセット</translation>
     </message>
     <message>
-        <location filename="../medaliumtab.ui" line="167"/>
+        <location filename="../medalliumtab.ui" line="167"/>
         <source>Apply</source>
         <translation>適用</translation>
     </message>
@@ -374,16 +374,6 @@
         <location filename="../version_dialog.ui" line="45"/>
         <source>version</source>
         <translation>バージョン</translation>
-    </message>
-    <message>
-        <location filename="../version_dialog.ui" line="61"/>
-        <source>Copyright (c) 2016 togenyan</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../version_dialog.ui" line="68"/>
-        <source>&lt;a href=&quot;mailto:nyantoge@gmail.com&quot;&gt;nyantoge@gmail.com&lt;/a&gt;</source>
-        <translation></translation>
     </message>
     <message>
         <location filename="../version_dialog.ui" line="99"/>
@@ -420,6 +410,7 @@
     <message>
         <location filename="../youkaitab.ui" line="93"/>
         <source>AP</source>
+        <extracomment>AP stands for &quot;attitude point&quot;</extracomment>
         <translation>AP</translation>
     </message>
     <message>

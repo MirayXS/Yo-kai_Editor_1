@@ -8,7 +8,6 @@ YoukaiCheckList::YoukaiCheckList(int sectionId, int offset, SaveManager *mgr, QW
     offset(offset),
     mgr(mgr)
 {
-    int count = 0;
     /* intert items into list */
     for (QList<QPair<quint32, QString> >::const_iterator it = GameData::getInstance().getData("youkai").constBegin();
          it != GameData::getInstance().getData("youkai").constEnd();
@@ -17,7 +16,6 @@ YoukaiCheckList::YoukaiCheckList(int sectionId, int offset, SaveManager *mgr, QW
         QListWidgetItem *ia = new QListWidgetItem(QString("%1 %2").arg(index, 3, 10, QChar('0')).arg((*it).second), this);
         ia->setFlags(ia->flags() | Qt::ItemIsUserCheckable);
         ia->setCheckState(Qt::Unchecked);
-        count++;
     }
 }
 

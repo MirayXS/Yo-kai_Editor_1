@@ -31,7 +31,7 @@ MainWindow::MainWindow(QWidget *parent) :
     EquipmentTab *et = new EquipmentTab(this->mgr, this, 0x05);
     ImportantTab *imt = new ImportantTab(this->mgr, this, 0x06);
     Section9Tab *s9t = new Section9Tab(this->mgr, this, 0x09);
-    MedaliumTab *mt = new MedaliumTab(this->mgr, this, 0x01);
+    MedalliumTab *mt = new MedalliumTab(this->mgr, this, 0x01);
     this->sectionTabs.append(yt);
     this->sectionTabs.append(it);
     this->sectionTabs.append(et);
@@ -48,8 +48,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->tabWidget->addTab(imt, tr("Key Items"));
     /*: name of Info tab */
     ui->tabWidget->addTab(s9t, tr("Info"));
-    /*: name of Medalium tab */
-    ui->tabWidget->addTab(mt, tr("Medalium"));
+    /*: name of Medallium tab */
+    ui->tabWidget->addTab(mt, tr("Medallium"));
 }
 
 MainWindow::~MainWindow()
