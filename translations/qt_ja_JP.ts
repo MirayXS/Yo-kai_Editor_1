@@ -138,7 +138,7 @@
     <message>
         <location filename="../mainwindow.ui" line="51"/>
         <source>version</source>
-        <translation></translation>
+        <translation type="unfinished">バージョン</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="86"/>

@@ -26,6 +26,7 @@ SOFTWARE.
 This program is translated into following languages:
 Japanese (日本語)
 French (Français) - the community of Yo-kai Watch World
+Spanish (Español) - the community of Yo-kai Watch World
 
 This program uses following libraries.
 
