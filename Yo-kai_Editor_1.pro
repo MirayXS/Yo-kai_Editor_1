@@ -90,7 +90,8 @@ $$PWD/translations/qt_it_IT.ts \
 $$PWD/translations/qt_de_DE.ts \
 $$PWD/translations/qt_zh_CN.ts \
 $$PWD/translations/qt_zh_TW.ts \
-$$PWD/translations/qt_pt_BR.ts
+$$PWD/translations/qt_pt_BR.ts \
+$$PWD/translations/qt_ko_KR.ts
 
 macx {
 APPBUNDLE = "Yo-kai Editor 1.app"
