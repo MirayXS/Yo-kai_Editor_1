@@ -1,5 +1,9 @@
 Yo-kai Editor 1 - togenyan
 
+v0.2.2 2016-08-19
+Add Italian and German translation (thanks the community of Yo-kai Watch World)
+Add app icon
+
 v0.2.1 2016-04-29
 Add Spanish translation (thanks the community of Yo-kai Watch World)
 Add name lists for British English, German and Italian
