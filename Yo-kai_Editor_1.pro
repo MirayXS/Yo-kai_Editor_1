@@ -107,3 +107,4 @@ win32:DEPENDPATH += $$PWD/../include
 RESOURCES += \
     resources.qrc
 
+RC_FILE = app.rc
