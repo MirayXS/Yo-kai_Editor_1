@@ -95,6 +95,7 @@ $$PWD/translations/qt_ko_KR.ts
 
 macx {
 APPBUNDLE = "Yo-kai Editor 1.app"
+ICON = icon.icns
 QMAKE_CXXFLAGS_WARN_ON += -Wno-unknown-pragmas
 QMAKE_TARGET_BUNDLE_PREFIX = jp.togenyan
 }

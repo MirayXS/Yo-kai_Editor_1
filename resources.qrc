@@ -1,6 +1,7 @@
 <RCC>
     <qresource prefix="/appInfo">
         <file>AUTHORS.txt</file>
+        <file>small_icon.png</file>
     </qresource>
     <qresource prefix="/data">
         <file>data/consume.xml</file>

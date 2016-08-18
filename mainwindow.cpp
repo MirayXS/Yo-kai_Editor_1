@@ -12,7 +12,9 @@ MainWindow::MainWindow(QWidget *parent) :
     mgr(new SaveManager),
     manualEdit(new ManualEditDialog(mgr, this))
 {
+    QIcon icon(":/appInfo/small_icon.png");
     ui->setupUi(this);
+    this->setWindowIcon(icon);
     ui->version_label->setText(QString(VERSION_STRING));
     connect(ui->actionVersion_information, SIGNAL(triggered()), SLOT(showVersionDialog()));
     connect(ui->actionOpen, SIGNAL(triggered()), SLOT(openFile()));
