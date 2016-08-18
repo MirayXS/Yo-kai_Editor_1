@@ -313,11 +313,11 @@ Error::ErrorCode SaveManager::parseSavedata(const QByteArray &bs)
 
     while (1) {
         quint32 h1, h2, size = 4, id;
-        ds >> h1;
-        pos += 4;
         if (ds.atEnd()) {
             break;
         }
+        ds >> h1;
+        pos += 4;
         while ((h1 & 0xFFFF) == 0xFFFE) {
             ds >> h2;
             pos += 4;
@@ -345,7 +345,7 @@ Error::ErrorCode SaveManager::parseSavedata(const QByteArray &bs)
         pos += size - 4;
     }
 
-    if (lastParent.count() != 1) { // only root node should exist
+    if (lastParent.count()) { // no node should exist
         error = Error::PARSE_ERROR;
         goto err;
     }
